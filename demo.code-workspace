@@ -4,10 +4,10 @@
 			"path": "verdaccio"
 		},
 		{
-			"path": "vue3-demo-lagou"
+			"path": "vue-demo"
 		},
 		{
-			"path": "vue-demo"
+			"path": "vue3-demo-lagou\\vite-demo"
 		}
 	],
 	"settings": {}
