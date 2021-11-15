@@ -1,0 +1,67 @@
+{
+  "name": "ticketmars_b",
+  "version": "0.0.1",
+  "description": "scaffold for mtl admin",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env APP_ENV=development node ./build/dev.js",
+    "build": "cross-env APP_ENV=production node ./build/build.js",
+    "st": "cross-env APP_ENV=st node ./build/build.js",
+    "download": "mtl download",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js,.vue src",
+    "fix": "npm run fix:js",
+    "fix:js": "eslint --ext .vue,.js src --fix",
+    "analyz": "NODE_ENV=production npm_config_report=true npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.juqitech.com:dev_frontend/ticketmars_b.git"
+  },
+  "author": "stone",
+  "license": "ISC",
+  "framework": {
+    "name": "spa-vue-admin",
+    "branch": "dev"
+  },
+  "devDependencies": {
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "eslint-import-resolver-webpack": "^0.12.1",
+    "eslint-plugin-prettier": "^3.1.3",
+    "less-loader": "^6.1.0"
+  },
+  "engines": {
+    "node": ">= 12.0.0",
+    "npm": ">= 6.5.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "dependencies": {
+    "@tweenjs/tween.js": "^17.4.0",
+    "axios": "^0.18.1",
+    "colorthief": "^2.3.0",
+    "cross-env": "^7.0.2",
+    "el-tree-transfer": "^2.4.7",
+    "element-ui": "2.13.1",
+    "exif-js": "^2.3.0",
+    "hammerjs": "^2.0.8",
+    "js-cookie": "^2.2.1",
+    "lodash": "^4.17.20",
+    "md5": "^2.2.1",
+    "mtl-tools": "0.9.3",
+    "mtl-webpack": "0.7.8",
+    "portfinder": "^1.0.26",
+    "qrcode": "^1.4.4",
+    "vue": "^2.6.11",
+    "vue-clipboard2": "^0.3.1",
+    "vue-cropper": "^0.5.6",
+    "vue-router": "^3.0.7",
+    "vuedraggable": "^2.23.2",
+    "vuex": "^3.1.3",
+    "vuex-persistedstate": "^3.0.1",
+    "webpack-bundle-analyzer": "^3.8.0"
+  }
+}
