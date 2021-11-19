@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "repository": "git@github.com:feng-hu-wu-yu/Demos.git",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "workspaces": [
+    "packages/arco-demo",
+    "packages/verdaccio",
+    "packages/vite-demo"
+  ]
+}
